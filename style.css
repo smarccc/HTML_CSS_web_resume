@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(5, 5, 78);
+}
+
+.container-1{
+    background-color: #ffff;
+    width: 70%;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.title{
+    border-bottom: solid 3px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2vw;
+}
+
+.side{
+    background-color: grey;
+    width: 30%;
+ 
+    display: block;
+    
+}
+
+.contact{
+    margin-top: 50px;
+}
+
+.contact li, .skills li, .interests li{
+    list-style-type: none;
+    font-size: 1vw;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.skills  {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.skills .title{
+    margin-bottom: 20px;
+}
+.interests{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+.interests .title{
+    margin-bottom: 20px;
+}
+
+img{
+    margin-top: 30px;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+#name{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 3vw;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    
+}
+#work{
+    margin-left: 20px;
+    font-size: 1vw;
+}
+
+.rightSide{
+    width: 70%;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.header{
+    height: 100px;
+    
+}
+.careerObjectives{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+}
+.careerObjectives p{
+    font-size: 1vw;
+    margin-top: 20px;
+}
+
+.workExperience{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.workExperience .firstExp{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1vw;
+}
+
+.firstExp li{
+    margin-left: 30px;
+    
+}
+
+.workExperience .secondExp {
+    font-size: 1vw;
+}
+
+.secondExp li{
+    margin-left: 30px;
+}
+
+.education{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.education li{
+    list-style-type: none;
+    font-size: 1vw;
+    margin-left: 20px;
+}
+
+.education h3{
+    margin-top: 20px;
+    font-size: 1.1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
