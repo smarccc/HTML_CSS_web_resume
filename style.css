@@ -154,3 +154,20 @@ img{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@media only screen and (max-width: 576px) {
+    body{
+       
+    }
+    .container-1{
+        background-color: #ffff;
+        width: 90%;
+        max-width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
